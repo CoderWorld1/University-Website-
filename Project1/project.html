@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <img src="https://www.topuniversities.com/themes/custom/tu_d8/logo.svg" alt="Logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Rankings</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Prepare</a></li>
+                    <li><a href="#">Apply</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Community</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="apply">Apply Now</button>
+                <button class="login">Login</button>
+                <button class="signup">Sign Up</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="content">
+                <h1>Find your dream university today</h1>
+                <form>
+                    <input type="text" placeholder="Study Destination" class="input-field">
+                    <input type="text" placeholder="Study Major" class="input-field">
+                    <button type="submit" class="explore-button">Explore</button>
+                </form>
+            </div>
+            <div class="illustration">
+                <img src="./Illustration.jpg" alt="Illustration">
+            </div>
+        </div>
+    </main>
+    <!-- Cards Section -->
+    <div class="cards">
+        <div class="card">
+            <img src="./wur_worldRank.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h2><b>QS World University Rankings 2024</b></h2>
+                <p>Discover the top-performing universities around the world</p>
+                <button class="expl">Explore &#8594</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./OGimgCRE3693subrank.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h2><b>QS World University Rankings by Subject 2024</b></h2>
+                <p>Find out which universities excel in your chosen subject</p>
+                <button class="expl">Explore &#8594</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./wur_employability.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h2><b>QS Best Student Cities 2024</b></h2>
+                <p>Discover the best cities for studentd around the world and find your perfect study destination</p>
+                <button class="expl">Explore &#8594</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- What Our Students say -->
+     <div class="stdSection">
+        <h1 style="text-align: center;">What our students say</h1>
+        <p style="text-align: center;">Hear how we’ve supported students like you to find their perfect study
+            destination</p>
+
+        <div class="cards">
+            <div class="card" id="stdCard">
+                <h1 id="lftCote">&#8220;</h1>
+                <p id="stdPara">My counsellor's assistance at very step has been invaluable, and I cannot thank him enough for making my dreams a reality.</p>
+                <h1 id="rytCote">&#8221</h1>
+                
+                <div class="stdContainer">
+                    <img src="./pranay.jpg" alt="" srcset="" height="50px" width="50px" style="border-radius: 50%;">
+                    <h4>Pranay Kasat</h4>
+                    </div>
+                <p id="paraAbout">Master of Science in Global Logistics, W.P.Carey School of Business, Arizona State University.</p>
+            </div>
+
+            <div class="card">
+                <img src="./pranay.jpg" alt="Avatar" style="width:100%; object-fit: cover;" height="100%">
+                <div class="container">
+                    <h4>Pranay Kasat</h4>
+                    <p id="paraAbout">Master of Science in Global Logistics, W.P.Carey School of Business, Arizona State University.</p>
+                </div>
+            </div>
+
+            <div class="card" id="stdCard">
+                <h1 id="lftCote">&#8220;</h1>
+                <p id="stdPara">QS were a huge help from the very beginning. When felt overwhelmed, it was my councellor who helped me to clarify my goals and find a programme best suited for my future.</p>
+                <h1 id="rytCote">&#8221</h1>
+                
+                <div class="stdContainer">
+                    <img src="./vaibhav.jpg" alt="" srcset="" height="50px" width="50px" style="border-radius: 50%;">
+                    <h4>Bibil Jose</h4>
+                    </div>
+                <p id="paraAbout">BSc in Mechinal Engineering, Arizona State University.</p>
+            </div>
+        </div>
+
+    </div> 
+
+
+
+
+
+
+    <!-- <div class="testimonial-cards">
+        <div class="card">
+            <div class="quote">
+                <p>“My counsellor’s assistance at every step has been invaluable, and I cannot thank him enough for
+                    making my dreams a reality.”</p>
+            </div>
+            <div class="person">
+                <img src="./pranay.jpg" alt="Pranay Kasat">
+                <div class="info">
+                    <h3>Pranay Kasat</h3>
+                    <p>Master of Science in Global Logistics, W.P. Carey School of Business, Arizona State University
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card image-card">
+            <img src="./pranay.jpg" alt="Pranay Kasat">
+            <div class="info">
+                <h3>Pranay Kasat</h3>
+                <p>Master of Science in Global Logistics, W.P. Carey School of Business, Arizona State University</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="quote">
+                <p>“QS were a huge help from the very beginning. When I felt overwhelmed, it was my counsellor who
+                    helped me to clarify my goals and find a programme best suited for my future.”</p>
+            </div>
+            <div class="person">
+                <img src="./pranay.jpg" alt="Bibil Jose">
+                <div class="info">
+                    <h3>Bibil Jose</h3>
+                    <p>BSc in Mechanical Engineering, Arizona State University</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
